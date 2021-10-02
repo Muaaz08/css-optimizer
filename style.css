@@ -81,7 +81,7 @@ button:hover{
     /* border-top: 1px solid #ff7f5064; */
 }
 
-@media screen and (max-width:740px){
+@media screen and (max-width:1026px){
     .container{
         flex-wrap: wrap;
     }
