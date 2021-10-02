@@ -65,12 +65,11 @@ button:hover{
 #input, #output{
     resize: vertical;
     border-radius: 9px;
+    outline: none !important;
+    border: 1px solid var(--primary-color);
 }
 
 #input:focus, #output:focus{
-    outline: none !important;
-    border: 1px solid var(--primary-color);
-    border-radius: 9px;
     box-shadow: 0 0 10px #ff7f5083;
 }
 
