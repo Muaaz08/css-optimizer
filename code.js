@@ -17,6 +17,7 @@ var regex_otherdq = /\".*\n"/g
 var regex_fontdq = /"(.*)"/
 var regex_lastdq = /\"$/
 
+//remove extra double quotes
 function remove_dq(string){
     var test = string.replace(regex_firstdq,empty);
     var test1 = test.replace(regex_otherdq,newline);
