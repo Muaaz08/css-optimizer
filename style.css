@@ -87,7 +87,7 @@ button:hover{
         flex-wrap: wrap;
     }
     .textArea{
-        max-width: 100%;
+        width: 70%;
     }
 }
 
