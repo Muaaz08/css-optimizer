@@ -14,7 +14,7 @@ var regex = /[-\w]+\:\s*null\;/gi
 var regex_emptyLine = /(^[ \t]*\n)/gm;
 var regex_firstdq = /^\"/
 var regex_otherdq = /\".*\n"/g
-var regex_fontdq = /"(.*)"/
+var regex_fontdq = /"(.*)"/g
 var regex_lastdq = /\"$/
 
 //remove extra double quotes
